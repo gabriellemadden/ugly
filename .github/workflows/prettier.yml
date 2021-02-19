@@ -18,6 +18,6 @@ jobs:
         with:
           fetch-depth: 1
       - name: Check the JS/TypeScript Code Formatting
-        uses: GarnerCorp/prettier_action@composite
+        uses: jsoref/prettier_action@composite
         with:
           prettier_options: '--check **/*.{ts,css,html,scss,json}'
